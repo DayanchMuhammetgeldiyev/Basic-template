@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background: #0d192b;
+  color: aliceblue;
+}
+
+.card__nft {
+  width: 15%;
+  background: #14253d;
+  border-radius: 10px;
+  display: -ms-grid;
+  display: grid;
+  margin: 10% auto;
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 30px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 30px 0px;
+}
+
+.card__nft img {
+  width: 100%;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.card__nft h4 {
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.card__nft p {
+  font-size: 0.9rem;
+  padding: 10px;
+  color: #b2c1d7;
+}
+
+.card__nft .card__eth {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 5px 0 5px;
+  border-bottom: 0.4px solid #b2c1d7;
+  height: 40px;
+}
+/*# sourceMappingURL=style.css.map */
