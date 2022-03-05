@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;700&display=swap');
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body{
+ font-family: 'Raleway', sans-serif;
+ font-size: 1.6rem;
+ background: hsl(233, 47%, 7%);
+ color: aliceblue;
+}
+.stats__component{
+    width: 40%;
+    margin: 15% auto;
+    background: hsl(244, 38%, 16%);
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    img{
+        width: 100%;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        overflow: hidden;
+        background: hsl(277, 64%, 61%);  /* fallback colour. Make sure this is just one solid colour. */
+        background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), hsl(277, 64%, 61%)), url("https://bit.ly/2rlzaXi");
+        background: linear-gradient(rgba(29, 38, 113, 0.8), hsl(277, 64%, 61%)), url("https://bit.ly/2rlzaXi"); /* The least supported option. */
+    }
+  .card_text{
+   
+    h1{
+        font-size: 1.5rem;
+        font-weight: 700;
+        text-align: center;
+        padding:20px;
+    span{
+        color: hsl(277, 64%, 61%);
+       }
+    }
+   p{
+         font-size: 0.9rem;
+         font-weight: 300;
+         text-align: center;
+         padding:10px;
+         opacity: 0.8;
+   } 
+  }  
+ .card__numb{
+     display: flex;
+     flex-direction: row;
+    .text{
+        font-size: 1rem;
+        padding: 30px;
+    }
+ } 
+}
