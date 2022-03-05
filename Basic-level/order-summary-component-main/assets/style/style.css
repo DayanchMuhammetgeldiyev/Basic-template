@@ -116,4 +116,13 @@ body {
           align-items: center;
   margin: 20px 20px auto;
 }
+
+@media screen and (max-width: 600px) {
+  .card_order {
+    width: 90%;
+    margin: 10% auto;
+    background: white;
+    border-radius: 10px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
