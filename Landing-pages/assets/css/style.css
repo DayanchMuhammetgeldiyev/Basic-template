@@ -31,7 +31,10 @@ body{
 Header{
     width: 100%;
     height: 100vh;
-    background-color: var(--color-black);
+    background-image: url("/assets/img/BG1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .navbar{
     width: 100%;
@@ -55,9 +58,131 @@ Header{
     font-size: 1.5rem;
     padding: .5rem;
 }
+.navbar .navbar-menu{
+    padding-top: 1.5rem;
+}
 .navbar .navbar-menu ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: .5rem;
+}
+.navbar .navbar-menu ul li {
+    font-size: 1rem;
+    padding: 1rem;
+}
+.navbar .navbar-menu ul li a{
+    color: var(--color-gray5);
+    text-decoration: none;
+    font-weight: 200;
+}
+.navbar .navbar-menu ul li a:hover{
+    color: var(--color-green);
+}
+.navbar .navbar-sign {
+    display: flex;
+    padding-top: 2.5rem;
+}
+.navbar .navbar-sign .navbar-login{
+    padding-right: 40px;
+}
+.navbar .navbar-sign .navbar-login a {
+    color: var(--color-gray5);
+    text-decoration: none;
+    font-weight: 200;
+}
+.navbar .navbar-sign .navbar-signup {
+    background-color: var(--color-gray5);
+    width: 100px;
+    height: 20px;
+    border-radius: 10px;
+}
+.navbar .navbar-sign .navbar-signup a {
+    color: var(--color-black);
+    text-decoration: none;
+    font-weight: 200;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Header-title */
+.header-hero {
+    width: 100%;
+}
+.header-hero .header-title {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.header-hero .header-title h1 {
+    color: var(--color-gray5);
+    font-size: 72px;
+    font-weight: 700;
+    text-align: center;
+}
+.header-hero .header-title p {
+    color: var(--color-gray2);
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+    padding-top: 20px;
+    line-height: 30px;
+}
+.header-hero .header-button {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.header-hero .header-button a {
+    background-color: var(--color-green);
+    color: var(--color-black);
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    border-radius: 40px;
+    padding:.8rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+.header-hero .header-image {
+    display: flex;
+    position: absolute;
+    top: 70%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.header-hero .header-image .image-tabs {
+    width: 100%;
+    height: 100%;
+}
+.header-hero .header-image .image-tabs img {
+    width: 90%;
+}
+.header-hero .header-image .image-tabs:nth-child(1) {
+    position: relative;
+    left: 180px;
+    transform: rotate(-4deg);
+    z-index: 4;
+}
+.header-hero .header-image .image-tabs:nth-child(2) {
+    position: relative;
+    top: 50px;
+    transform: rotate(2deg);
+    z-index: 3;
+}
+.header-hero .header-image .image-tabs:nth-child(3) {
+    position: relative;
+    right: 50px;
+    transform: rotate(-4deg);
+    z-index: 2;
+}
+.header-hero .header-image .image-tabs:nth-child(4) {
+    position: relative;
+    top: 30px;
+    right: 170px;
+    transform: rotate(2deg);
+    z-index: 1;
 }
