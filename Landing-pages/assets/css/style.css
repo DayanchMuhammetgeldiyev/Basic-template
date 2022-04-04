@@ -38,7 +38,6 @@ Header{
     height: 100%;
     display: flex;
     justify-content: space-around;
-    padding-top: 2rem;
 }
 .navbar .navbar-logo {
     width: 100px;
@@ -54,5 +53,11 @@ Header{
 .navbar .navbar-logo p{
     color: var(--color-gray5);
     font-size: 1.5rem;
+    padding: .5rem;
+}
+.navbar .navbar-menu ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     padding: .5rem;
 }
