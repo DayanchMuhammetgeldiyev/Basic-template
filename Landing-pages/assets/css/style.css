@@ -152,7 +152,6 @@ Header{
     top: 70%;
     left: 0;
     width: 100%;
-    height: 100%;
 }
 .header-hero .header-image .image-tabs {
     width: 100%;
@@ -185,4 +184,11 @@ Header{
     right: 170px;
     transform: rotate(2deg);
     z-index: 1;
+}
+
+/*Section-tabs1 */
+.section-tabs {
+    background-color: var(--color-green);
+    width: 100%;
+    height: 100vh;
 }
