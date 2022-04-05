@@ -303,3 +303,19 @@ Header{
     text-decoration: none;
     margin-bottom: 20px;
 }
+
+/* Section-price */
+.section-price {
+    width: 100%;
+    height: auto;
+    background-color: var(--color-black);
+}
+.section-price .section-price-title {
+    padding-top: 8%;
+}
+.section-price .section-price-title h6{
+    text-align: center;
+    color: var(--color-gray5);
+    font-size: 64px;
+}
+.section-price .section-price-card
