@@ -318,4 +318,201 @@ Header{
     color: var(--color-gray5);
     font-size: 64px;
 }
-.section-price .section-price-card
+.section-price .section-price-card {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5%;
+    width: 100%;
+    height: 800px;
+}
+.section-price .section-price-card .section-price-personal {
+    width: 20%;
+    background-color: var(--color-gray5);
+    border-radius: 10px;
+    padding: 10px;
+    line-height: 30px;
+}
+.section-price .section-price-card .section-price-personal h3{
+    color: var(--color-black);
+    font-size: 20px;
+    padding: 10px 0 0 10px;
+}
+.section-price .section-price-card .section-price-personal p {
+    color: var(--color-black2);
+    font-size: 14px;
+    padding: 0 0 0 10px;
+    height: 50px;
+    border-bottom: 1px solid var(--color-gray3);
+}
+.section-price .section-price-money {
+    background-color: var(--color-gray5);
+    padding-top: 10px;
+}
+.section-price .section-price-card .section-price-money h5{
+    color: var(--color-black);
+    font-size: 40px;
+    padding: 10% 0 0 10px;
+}
+.section-price .section-price-card .section-price-money span{
+    color: var(--color-black);
+    font-size: 14px;
+    padding-top: 10px;
+}
+.section-price .section-price-card .section-price-money span {
+    color: var(--color-black);
+    font-size: 14px;
+    padding-top: 20%;
+}
+.section-price .section-price-card .section-price-prop {
+    background-color: var(--color-gray5);
+    border-radius: 10px;
+    padding: 10% 0  0 5%;
+}
+.section-price .section-price-card .section-price-prop h2 {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top:20px;
+}
+.section-price .section-price-card .section-price-button {
+   margin-top: 10%;
+}
+.section-price .section-price-card .section-price-button button {
+    background-color: var(--color-green);
+    color: var(--color-black);
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    border-radius: 40px;
+    padding:.8rem;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 10px;
+    width: 90%;
+}
+.section-price .section-price-card .section-price-regular {
+    width: 20%;
+    background-color: var(--color-green);
+    border-radius: 10px;
+    padding: 10px;
+    line-height: 30px;
+}
+.section-price .section-price-card .section-price-regular h3{
+    color: var(--color-black);
+    font-size: 20px;
+    padding: 10px 0 0 10px;
+}
+.section-price .section-price-card .section-price-regular p {
+    color: var(--color-black2);
+    font-size: 14px;
+    padding: 0 0 0 10px;
+    height: 50px;
+    border-bottom: 1px solid var(--color-gray3);
+}
+.section-price .section-price-regular-money {
+    padding-top: 10px;
+}
+.section-price .section-price-card .section-price-regular-money h5{
+    color: var(--color-black);
+    font-size: 40px;
+    padding: 10% 0 0 10px;
+}
+.section-price .section-price-card .section-price-regular-money span{
+    color: var(--color-black);
+    font-size: 14px;
+    padding-top: 10px;
+}
+.section-price .section-price-card .section-price-regular-prop {
+    padding: 10% 0  0 5%;
+}
+.section-price .section-price-card .section-price-regular-prop h2 {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top:20px;
+}
+.section-price .section-price-card .section-price-regular-button {
+    margin-top: 10%;
+ }
+ .section-price .section-price-card .section-price-regular-button button {
+     background-color: var(--color-black);
+     color: var(--color-gray5);
+     font-size: 14px;
+     font-weight: 700;
+     border: none;
+     border-radius: 40px;
+     padding:.8rem;
+     cursor: pointer;
+     text-decoration: none;
+     margin: 10px;
+     width: 90%;
+ }
+.section-price .section-price-button {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+ .section-price-button .toggle-control {
+    display: block;
+    position: relative;
+    padding-left: 100px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  
+  .section-price-button .toggle-control input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  .section-price-button .toggle-control input:checked ~ .control {
+    background-color: var(--color-gray5);
+  }
+  
+  .section-price-button .toggle-control input:checked ~ .control:after {
+    left: 55px;
+  }
+  
+  .section-price-button .toggle-control .control {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100px;
+    border-radius: 25px;
+    background-color: var(--color-gray5);
+    -webkit-transition: background-color 0.15s ease-in;
+    transition: background-color 0.15s ease-in;
+  }
+  
+  .section-price-button .toggle-control .control:after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    background: var(--color-green);
+    -webkit-transition: left 0.15s ease-in;
+    transition: left 0.15s ease-in;
+  }
+.section-price-button .section-price-month {
+    color: var(--color-gray5);
+    padding: 20px;
+}
+.section-price-button .section-price-year {
+    color: var(--color-gray);
+    padding: 20px;
+}
+
