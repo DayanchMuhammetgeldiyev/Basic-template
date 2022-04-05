@@ -114,6 +114,7 @@ Header{
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
 }
 .header-hero .header-title h1 {
     color: var(--color-gray5);
@@ -269,10 +270,12 @@ Header{
     flex-direction: row;
     justify-content: space-evenly;
     padding: 8%;
+    overflow-x: auto;
+    overflow-y: hidden;
 }
 .section-platform .main-img img {
     background-color: var(--color-gray5);
-    padding: 30px;
+    padding: 20px;
     border-radius: 10px;
 }
 .section-platform .main-img img:nth-child(2) {
@@ -516,3 +519,123 @@ Header{
     padding: 20px;
 }
 
+/* Section-email */
+.section-email {
+    background-color: var(--color-green);
+    width: 100%;
+}
+.section-email .section-email-title {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.section-email .section-email-title h4{
+    color: var(--color-black);
+    font-size: 72px;
+    font-weight: 700;
+    padding-top: 10px;
+    line-height: 90px;
+}
+.section-email .section-email-title h4 span {
+    color: hsla(0, 0%, 55%, 0.336);
+    font-size: 72px;
+    padding-top: 10px;
+}
+.section-email .section-email-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.section-email .section-email-button a {
+    background-color: var(--color-black);
+    color: var(--color-gray5);
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 40px;
+    padding:.8rem;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+/*--- footer  ---*/
+.footer{
+    background-color: var(--color-gray5);
+    padding: 2% 0 2% 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer .footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .footer-logo h1 {
+    color: var(--color-black);
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 10px;
+    line-height: 90px;
+}
+.footer .footer-menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .footer-menu ul li {
+    list-style: none;
+    padding: 0 10px;
+}
+.footer .footer-menu ul li a {
+    color: var(--color-black);
+    font-size: 18px;
+    font-weight:500;
+    text-decoration: none;
+}
+.footer .footer-menu ul li a:hover {
+    color: var(--color-green2);
+}
+
+/* Mobile-responsive */
+@media screen and (max-width:767px) {
+    .header-hero .header-title {
+        width: 100%;
+    }
+    .header-hero .header-title h1 {
+        font-size: 36px;
+        width: 100%;
+    }
+    .header-hero .header-title p {
+        font-size: 16px;
+        line-height: 20px;
+        width: 100%;
+    } 
+    .section-tabs .section-tabs-title h3 {
+        font-size: 36px;
+        padding-top: 10%;
+     } 
+     .section-tabs .section-tabs-last {
+         width: 90%;
+         margin: 20% auto;
+     }
+     .section-tabs .section-tabs-paragraf p{
+             padding: 10%;
+            font-size: 16px;
+            font-weight: 500;
+     }
+    .section-brands .section-brands-title h5 {
+        font-size: 36px;
+        padding: 10%;
+        line-height: 50px;
+    } 
+    .section-brands .section-brands-text h2 {
+        font-size: 36px;
+        line-height: 50px;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+}
