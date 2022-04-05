@@ -146,6 +146,10 @@ Header{
     cursor: pointer;
     text-decoration: none;
 }
+.header-hero .header-button a:hover{
+    background-color: var(--color-hover-green);
+    transition: all .3s ease-in-out;
+}
 .header-hero .header-image {
     display: flex;
     position: absolute;
@@ -190,5 +194,87 @@ Header{
 .section-tabs {
     background-color: var(--color-green);
     width: 100%;
-    height: 100vh;
+    height: 80vh;
+}
+.section-tabs .section-tabs-title h3 {
+   text-align: center;
+   color: var(--color-black);
+   font-size: 72px;
+   padding-top: 10%;
+}
+.section-tabs .section-tabs-last {
+    background-color: var(--color-gray4);
+    width: 20%; 
+    margin: 3% auto;     
+    padding:30px;
+    border-radius: 16px;
+}
+.section-tabs .section-tabs-last img {
+    width: 100%;
+}
+.section-tabs .section-tabs-paragraf {
+    margin: 5% auto;
+    text-align: center;
+}
+.section-tabs .section-tabs-paragraf p{
+    line-height: 30px;
+    font-size: 18px;
+}
+/*  Section-brands */
+.section-brands {
+    width: 100%;
+    height: auto;
+    background-color: var(--color-gray5);
+}
+.section-brands .section-brands-title {
+    text-align: center;
+    padding-top: 5%;
+}
+.section-brands .section-brands-title h5{
+    font-size: 64px;
+    line-height: 80px;
+}
+.section-brands .section-brands-title h5 span {
+    color: var(--color-gray2);
+}
+.section-brands .section-brands-text {
+    padding-top: 15%;
+}
+.section-brands .section-brands-text h2{
+    font-size: 64px;
+    line-height: 80px;
+    text-align: center;
+}
+.section-brands .section-brands-text img {
+    width: 100%;
+    padding: 10%;
+}
+
+/* Main */
+.section-platform {
+    width: 100%;
+    height: auto;
+    background-color: var(--color-gray4);
+}
+.section-platform .main-title {
+    text-align: center;
+    padding-top: 5%;
+}
+.section-platform .main-title h5{
+    font-size: 64px;
+    line-height: 80px;
+}
+.section-platform .main-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 8%;
+}
+.section-platform .main-img img {
+    background-color: var(--color-gray5);
+    padding: 30px;
+    border-radius: 10px;
+}
+.section-platform .main-img img:nth-child(2) {
+    background-color: var(--color-green);
 }
