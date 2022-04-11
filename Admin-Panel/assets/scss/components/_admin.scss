@@ -1,0 +1,37 @@
+
+.admin-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+.admin-avatar  {
+    a {  
+    overflow: hidden;
+    margin: 2% 5% 0;
+    padding-bottom:10px;
+    display: flex;
+    justify-content: flex-start;
+     }
+    img{
+        width: 50px;
+        height: auto;
+        border-radius: 50%;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+        overflow: hidden;
+        cursor: pointer;
+    }
+    h6{
+        margin: 15px 0 0 20px;
+        padding: 0;
+        font-size: .9rem;
+        font-weight: 500;
+        color: #000;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        word-break: break-all;
+        -webkit-line-clamp: 1;
+        cursor: pointer;
+    }
+} 
