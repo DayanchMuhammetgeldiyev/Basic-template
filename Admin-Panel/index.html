@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Panel</title>
+    <title>Admin-Panel</title>
     <link rel="stylesheet" href="assets/scss/style.css">
+                           <!-- İcons -->
+    <link rel="stylesheet" href="assets/icons/fontawesome-web/css/all.css">
 </head>
 <body>
+             <!-- Header -->
     <header class="container-full">
         <div class="admin-header">
              <div class="column-3">
@@ -21,12 +24,63 @@
                 </div>
             </div>
             <div class="column-3">
-                <h1>Admin Panel</h1>
+               <div class="admin-search">
+                <input type="search" placeholder="search">
+               </div>
             </div>
               <div class="column-3">
-                <h1>Admin Panel</h1>
+                <div class="admin-notification">
+                    <div class="admin-note">
+                    <i class="fa-solid fa-bell fa-lg"></i>
+                     </div>
+                     <div class="admin-darkmode">
+                        <i class="fa-solid fa-sun fa-lg"></i>
+                     </div>
+                     <div class="admin-message">
+                        <i class="fa-solid fa-comments fa-lg"></i>
+                     </div>
+                </div>
             </div>
            </div>
     </header>
+             <!-- Aside -->
+    <aside class="aside">
+        <div class="container-full">
+            <div class="admin-aside">
+                <div class="admin-aside-menu">
+                    <div class="admin-aside-menu-item">
+                        <a href="#">
+                            <i class="fa-solid fa-home fa-lg"></i>
+                            <span>Home</span>
+                        </a>
+                    </div>
+                    <div class="admin-aside-menu-item">
+                        <a href="#">
+                            <i class="fa-solid fa-user fa-lg"></i>
+                            <span>Profile</span>
+                        </a>
+                    </div>
+                    <div class="admin-aside-menu-item">
+                        <a href="#">
+                            <i class="fa-solid fa-envelope fa-lg"></i>
+                            <span>Messages</span>
+                        </a>
+                    </div>
+                    <div class="admin-aside-menu-item">
+                        <a href="#">
+                            <i class="fa-solid fa-cog fa-lg"></i>
+                            <span>Settings</span>
+                        </a>
+                    </div>
+                    <div class="admin-aside-menu-item">
+                        <a href="#">
+                            <i class="fa-solid fa-sign-out-alt fa-lg"></i>
+                            <span>Logout</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
 </body>
 </html>
