@@ -277,13 +277,14 @@ button {
   display: flex;
   flex-direction: column;
   width: 20%;
-  margin: 5% 5% 0;
+  margin: 2% 5% 0;
   padding: 20px;
 }
 .admin-aside .admin-aside-menu {
   background-color: var(--white-color);
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  cursor: pointer;
 }
 .admin-aside .admin-aside-menu-item {
   padding: 20px;
@@ -305,7 +306,30 @@ button {
 .admin-aside .admin-aside-menu-item span {
   color: var(--dark-color);
   padding-left: 10px;
+  cursor: pointer;
 }
 .admin-aside .admin-aside-menu-item span:hover {
-  color: var(--extra-green-color);
+  color: var(--extra-orange-color);
+}
+
+.admin-footer {
+  width: 250px;
+  margin: 2% 2% 2% 6%;
+  padding: 50px;
+  background-color: var(--white-color);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  cursor: pointer;
+}
+.admin-footer em {
+  color: var(--extra-blue-color);
+  cursor: pointer;
+  font-size: 16px;
+}
+.admin-footer span {
+  color: var(--extra-blue-color);
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 300;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
